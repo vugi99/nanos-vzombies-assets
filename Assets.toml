@@ -7,7 +7,7 @@
     # version
     version =           "0.1.3"
     # image URL
-    image =             ""
+    image =             "https://i.imgur.com/kjnOj4u.png"
     # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
     unreal_folder =     "vzombiesAssets"
 
