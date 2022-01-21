@@ -5,7 +5,7 @@
     # contributors
     author =            "Voltaism"
     # version
-    version =           "0.1.3"
+    version =           "1.0.0"
     # image URL
     image =             "https://i.imgur.com/kjnOj4u.png"
     # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
@@ -35,8 +35,12 @@
         power_handle = "Power/handle/power_handle"
         revive = "Perks/quick_revive/revive"
         revive_bottle = "Perks/quick_revive/bottle/revive_bottle"
+        stamin_up = "Perks/stamin_up/stamin_up"
+        stamin_up_bottle = "Perks/stamin_up/bottle/stamin_up_bottle"
         three_gun = "Perks/three_gun/three_gun"
         three_gun_bottle = "Perks/three_gun/bottle/three_gun_bottle"
+        wunderfizz_ball = "Perks/wunderfizz/wunderfizz_ball/wunderfizz_ball"
+        wunderfizz_body = "Perks/wunderfizz/wunderfizz_body/wunderfizz_body"
         x2 = "Powerups/x2/x2"
 
     # skeletal meshes
@@ -79,6 +83,7 @@
         attack_14 = "Sounds/Zombies/attack/attack_14"
         attack_15 = "Sounds/Zombies/attack/attack_15"
         barricade_repair = "Sounds/Barricades/barricade_repair"
+        barricade_start_repair = "Sounds/Barricades/barricade_start_repair"
         behind_00 = "Sounds/Zombies/behind/behind_00"
         behind_01 = "Sounds/Zombies/behind/behind_01"
         behind_02 = "Sounds/Zombies/behind/behind_02"
@@ -116,16 +121,29 @@
         mbox_child = "Sounds/mbox/mbox_child"
         mbox_music_box = "Sounds/mbox/mbox_music_box"
         mbox_open = "Sounds/mbox/mbox_open"
+        mus_doubletap_jingle = "Sounds/Perks/Perks_Amb/mus_doubletap_jingle"
+        mus_jugganog_jingle = "Sounds/Perks/Perks_Amb/mus_jugganog_jingle"
+        mus_mulekick_jingle = "Sounds/Perks/Perks_Amb/mus_mulekick_jingle"
+        mus_packapunch_jingle = "Sounds/Perks/Perks_Amb/mus_packapunch_jingle"
+        mus_revive_jingle = "Sounds/Perks/Perks_Amb/mus_revive_jingle"
+        mus_stamin_jingle = "Sounds/Perks/Perks_Amb/mus_stamin_jingle"
         mus_zombie_round_over = "Sounds/Rounds/mus_zombie_round_over"
         mus_zombie_round_start = "Sounds/Rounds/mus_zombie_round_start"
         mx_game_over = "Sounds/Rounds/mx_game_over"
         nuke = "Sounds/Powerups/nuke"
         p_loop = "Sounds/Powerups/p_loop"
         p_spawn = "Sounds/Powerups/p_spawn"
+        pap_loop = "Sounds/pap/pap_loop"
         pap_ready = "Sounds/pap/pap_ready"
         pap_upgrade = "Sounds/pap/pap_upgrade"
         power_on = "Sounds/power_on"
         power_on_3D = "Sounds/power_on_3D"
+        rand_perk_mach_leave = "Sounds/Perks/Wunder/rand_perk_mach_leave"
+        rand_perk_mach_loop = "Sounds/Perks/Wunder/rand_perk_mach_loop"
+        rand_perk_mach_stop = "Sounds/Perks/Wunder/rand_perk_mach_stop"
+        random_perk_imp_00 = "Sounds/Perks/Wunder/Impact/random_perk_imp_00"
+        random_perk_imp_01 = "Sounds/Perks/Wunder/Impact/random_perk_imp_01"
+        random_perk_imp_02 = "Sounds/Perks/Wunder/Impact/random_perk_imp_02"
         slam_00 = "Sounds/Barricades/slam/slam_00"
         slam_01 = "Sounds/Barricades/slam/slam_01"
         slam_02 = "Sounds/Barricades/slam/slam_02"
@@ -144,6 +162,8 @@
         soft_03 = "Sounds/Zombies/soft/soft_03"
         soft_04 = "Sounds/Zombies/soft/soft_04"
         soft_05 = "Sounds/Zombies/soft/soft_05"
+        spawn_dirt_00 = "Sounds/Zombies/ground/spawn_dirt_00"
+        spawn_dirt_01 = "Sounds/Zombies/ground/spawn_dirt_01"
         sprint_00 = "Sounds/Zombies/sprint/sprint_00"
         sprint_01 = "Sounds/Zombies/sprint/sprint_01"
         sprint_02 = "Sounds/Zombies/sprint/sprint_02"
@@ -153,7 +173,15 @@
         sprint_06 = "Sounds/Zombies/sprint/sprint_06"
         sprint_07 = "Sounds/Zombies/sprint/sprint_07"
         sprint_08 = "Sounds/Zombies/sprint/sprint_08"
+        teleport_plr = "Sounds/Player/Teleport/teleport_plr"
+        wunder_vortex_loop = "Sounds/Perks/Wunder/wunder_vortex_loop"
         x2 = "Sounds/Powerups/x2"
+        zmb_break_board_00 = "Sounds/Barricades/break_board/zmb_break_board_00"
+        zmb_break_board_01 = "Sounds/Barricades/break_board/zmb_break_board_01"
+        zmb_break_board_02 = "Sounds/Barricades/break_board/zmb_break_board_02"
+        zmb_break_board_03 = "Sounds/Barricades/break_board/zmb_break_board_03"
+        zmb_break_board_04 = "Sounds/Barricades/break_board/zmb_break_board_04"
+        zmb_break_board_05 = "Sounds/Barricades/break_board/zmb_break_board_05"
         zombie_hit_player_00 = "Sounds/Player/hit_player/zombie_hit_player_00"
         zombie_hit_player_01 = "Sounds/Player/hit_player/zombie_hit_player_01"
         zombie_hit_player_02 = "Sounds/Player/hit_player/zombie_hit_player_02"
@@ -163,8 +191,20 @@
 
     # animations
     [assets.animations]
+        FreehangClimb = "Zombies/Animation/Mixamo/FreehangClimb"
+        JumpingRunning = "Zombies/Animation/Mixamo/Vault/JumpingRunning"
         MOB_Stand_to_Zombie_Idle_1_v2_IPC = "Zombies/Animation/In_Place_Retarget/MOB_Stand_to_Zombie_Idle_1_v2_IPC"
+        VaultOverBox = "Zombies/Animation/Mixamo/Vault/VaultOverBox"
+        ZombieAttack = "Zombies/Animation/Mixamo/Attack/ZombieAttack"
+        ZombieAttack2 = "Zombies/Animation/Mixamo/Attack/ZombieAttack2"
+        ZombieAttackHard = "Zombies/Animation/Mixamo/Attack/ZombieAttackHard"
+        ZombieHeadbutt = "Zombies/Animation/Mixamo/Attack/ZombieHeadbutt"
+        ZombiePunching = "Zombies/Animation/Mixamo/Attack/ZombiePunching"
+        ZombieScream = "Zombies/Animation/Mixamo/ZombieScream"
         Zombie_Atk_Arms_3_SHORT_Loop_IPC = "Zombies/Animation/In_Place_Retarget/Zombie_Atk_Arms_3_SHORT_Loop_IPC"
+        Zombie_Atk_Cut_1 = "Zombies/Animation/In_Place_Retarget/Zombie_Atk_Cut_1"
+        Zombie_Atk_Cut_2 = "Zombies/Animation/In_Place_Retarget/Zombie_Atk_Cut_2"
+        Zombie_Atk_Cut_3 = "Zombies/Animation/In_Place_Retarget/Zombie_Atk_Cut_3"
         Zombie_Atk_Loop_1_IPC = "Zombies/Animation/In_Place_Retarget/Zombie_Atk_Loop_1_IPC"
         Zombie_Chase_1_KnockBack_Chase_IPC = "Zombies/Animation/In_Place_Retarget/Zombie_Chase_1_KnockBack_Chase_IPC"
         Zombie_Chase_1_Loop_IPC = "Zombies/Animation/In_Place_Retarget/Zombie_Chase_1_Loop_IPC"
@@ -188,7 +228,10 @@
 
     # particles
     [assets.particles]
+        PSN_Dirt_Surface = "Zombies/Particles/A_Surface_Footstep/Niagara_FX/ParticleSystems/PSN_Dirt_Surface"
         PS_Powerup = "Powerups/PS_Powerup"
+        P_Launch = "VFX_Bundle_2/GPUSpritesMix/ParticleSystems/P_Launch"
+        P_ky_cutter1 = "AdvancedMagicFX13/Particles/P_ky_cutter1"
 
     # materials
     [assets.materials]
