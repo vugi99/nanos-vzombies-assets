@@ -5,7 +5,7 @@
     # contributors
     author =            "Voltaism"
     # version
-    version =           "1.0.0"
+    version =           "1.1.0"
     # image URL
     image =             "https://i.imgur.com/kjnOj4u.png"
     # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
@@ -45,6 +45,19 @@
 
     # skeletal meshes
     [assets.skeletal_meshes]
+        SK_Sci_Fi_Character_08_Arms = "Character/Sci_Fi_Character_08/Mesh/Character/SK_Sci_Fi_Character_08_Arms"
+        SK_Sci_Fi_Character_08_Bags_01 = "Character/Sci_Fi_Character_08/Mesh/Character/SK_Sci_Fi_Character_08_Bags_01"
+        SK_Sci_Fi_Character_08_Bags_02 = "Character/Sci_Fi_Character_08/Mesh/Character/SK_Sci_Fi_Character_08_Bags_02"
+        SK_Sci_Fi_Character_08_Bags_03 = "Character/Sci_Fi_Character_08/Mesh/Character/SK_Sci_Fi_Character_08_Bags_03"
+        SK_Sci_Fi_Character_08_Bags_04 = "Character/Sci_Fi_Character_08/Mesh/Character/SK_Sci_Fi_Character_08_Bags_04"
+        SK_Sci_Fi_Character_08_Bags_Belts = "Character/Sci_Fi_Character_08/Mesh/Character/SK_Sci_Fi_Character_08_Bags_Belts"
+        SK_Sci_Fi_Character_08_Body = "Character/Sci_Fi_Character_08/Mesh/Character/SK_Sci_Fi_Character_08_Body"
+        SK_Sci_Fi_Character_08_Hat_01 = "Character/Sci_Fi_Character_08/Mesh/Character/SK_Sci_Fi_Character_08_Hat_01"
+        SK_Sci_Fi_Character_08_Head_01 = "Character/Sci_Fi_Character_08/Mesh/Character/SK_Sci_Fi_Character_08_Head_01"
+        SK_Sci_Fi_Character_08_Head_02 = "Character/Sci_Fi_Character_08/Mesh/Character/SK_Sci_Fi_Character_08_Head_02"
+        SK_Sci_Fi_Character_08_Head_02_Details = "Character/Sci_Fi_Character_08/Mesh/Character/SK_Sci_Fi_Character_08_Head_02_Details"
+        SK_Sci_Fi_Character_08_Shoes_Details_01 = "Character/Sci_Fi_Character_08/Mesh/Character/SK_Sci_Fi_Character_08_Shoes_Details_01"
+        SK_Sci_Fi_Character_08_Shoes_Details_02 = "Character/Sci_Fi_Character_08/Mesh/Character/SK_Sci_Fi_Character_08_Shoes_Details_02"
         SK_TSZombie = "Zombies/TShirtZombie/Mesh/SK_TSZombie"
         SK_TSZombie2 = "Zombies/TShirtZombie/Mesh/SK_TSZombie2"
         SK_TSZombie3 = "Zombies/TShirtZombie/Mesh/SK_TSZombie3"
@@ -237,6 +250,18 @@
     [assets.materials]
         M_Pack_a_punch = "Pack_a_punch/weapon/M_Pack_a_punch"
         M_Plank = "Z_barricade/Mats/M_Plank"
+        M_Sci_Fi_Character_Body_1 = "Character/Sci_Fi_Character_08/Metarials/Character/M_Sci_Fi_Character_Body_1"
+        M_Sci_Fi_Character_Body_2 = "Character/Sci_Fi_Character_08/Metarials/Character/M_Sci_Fi_Character_Body_2"
+        M_Sci_Fi_Character_Body_3 = "Character/Sci_Fi_Character_08/Metarials/Character/M_Sci_Fi_Character_Body_3"
+        M_Sci_Fi_Character_Details_1 = "Character/Sci_Fi_Character_08/Metarials/Character/M_Sci_Fi_Character_Details_1"
+        M_Sci_Fi_Character_Details_2 = "Character/Sci_Fi_Character_08/Metarials/Character/M_Sci_Fi_Character_Details_2"
+        M_Sci_Fi_Character_Details_3 = "Character/Sci_Fi_Character_08/Metarials/Character/M_Sci_Fi_Character_Details_3"
+        M_Sci_Fi_Character_Head_1 = "Character/Sci_Fi_Character_08/Metarials/Character/M_Sci_Fi_Character_Head_1"
+        M_Sci_Fi_Character_Head_2 = "Character/Sci_Fi_Character_08/Metarials/Character/M_Sci_Fi_Character_Head_2"
+        M_Sci_Fi_Character_Head_3 = "Character/Sci_Fi_Character_08/Metarials/Character/M_Sci_Fi_Character_Head_3"
+        M_Sci_Fi_Character_Head_4 = "Character/Sci_Fi_Character_08/Metarials/Character/M_Sci_Fi_Character_Head_4"
+        M_Sci_Fi_Character_Head_5 = "Character/Sci_Fi_Character_08/Metarials/Character/M_Sci_Fi_Character_Head_5"
+        M_Sci_Fi_Character_Head_6 = "Character/Sci_Fi_Character_08/Metarials/Character/M_Sci_Fi_Character_Head_6"
 
     # other assets (for not yet categorized ones)
     [assets.others]
